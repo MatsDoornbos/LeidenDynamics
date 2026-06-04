@@ -30,7 +30,7 @@ The software is written specifically for a Raspberry Pi connected to the custom 
 **Power Supply Wiring:**
 *   **5V Power Supply:** Connected directly to the motor power pins to drive the two stepper motors.
 *   **12V Power Supply:** Connected via the relay module to provide power to the solenoid valve.
-*   **Solenoid Valve:** Wired as a separate circuit, receiving 12V power only when the relay is closed by the Raspberry Pi.
+*   **Solenoid Valve:** Wired as a separate circuit, receiving 12V power only when the relay is opened by the Raspberry Pi.
 
 The physical fluid system requires a 500ml syringe filled with water, pressurized by a 9kg weight placed on the plunger.
 
